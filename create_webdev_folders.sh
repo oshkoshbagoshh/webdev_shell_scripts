@@ -1,23 +1,3 @@
-# webdev_shell_scripts
-A collection of shell scripts to help you out on your web dev projects. 
-
-## Description
-The create_webdev_folders.sh script is a helpful terminal script (Mac only at this time), that automatically creates the folder structures and files that you need for your web dev projects (assets/images, assets/scripts, etc.).
-
-The script works by either double clicking in the finder, or by running in the terminal using the 
-``` zsh $ ./create_webdev_folders.sh ```
-
-- Make sure you copy the .sh file into the directory that you want the folders to be created in (otherwise, it will just create them in the current working directory )
-- If it's the first time you're using the script, open the terminal and run the command below to make it executable
-
-```zsh
-$ +chmod +x create_web_dev_structure.sh create_webdev_folders.sh
-  ```
-
-## Usage
-
-
-```zsh
 #!/bin/zsh
 #################################
 # @Author: AJ Javadi
@@ -50,17 +30,3 @@ mv script.js ./assets/scripts
 mv style.css ./assets/style
 # echo to the reader
 echo "Web development folder structure created successfully."
-```
-
-- NOTE: if you are currently using bash as your main terminal, just change #!/bin/zsh to #!/bin/bash
-
-## Installation
-
-- All you need is zsh which should already be installed on your Mac
-
-## Issues
-
-## Credits
-- AJ Javadi
-  
-

@@ -18,15 +18,15 @@
 
 # create main directories
 echo "creating web dev folder directories in current folder..."
-mkdir -p assets/images assets/scripts assets/style 
+mkdir -p assets/images assets/scripts assets/css
 # creating README.md and index.html
 echo "creating index.html and README.md file"
 touch index.html README.md
 # create script.js and style.css file
 echo "creating js and css file"
-touch script.js style.css
+touch ./assets/scripts/script.js ./assets/css/style.css
 # move scripts to their folders 
-mv script.js ./assets/scripts
-mv style.css ./assets/style
+# mv script.js ./assets/scripts
+# mv style.css ./assets/style
 # echo to the reader
 echo "Web development folder structure created successfully."
